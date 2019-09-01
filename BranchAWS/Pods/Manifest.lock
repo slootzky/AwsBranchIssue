@@ -1,0 +1,41 @@
+PODS:
+  - AWSAPIGateway (2.6.35):
+    - AWSCore (= 2.6.35)
+  - AWSCore (2.6.35)
+  - Branch-SDK (0.25.1):
+    - Branch-SDK/Core (= 0.25.1)
+  - Branch-SDK/Core (0.25.1)
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - react-native-branch (2.3.3):
+    - Branch-SDK
+    - React
+  - React/Core (0.11.0)
+
+DEPENDENCIES:
+  - AWSAPIGateway (~> 2.6.29)
+  - Branch-SDK (from `../node_modules/react-native-branch/ios`)
+  - react-native-branch (from `../node_modules/react-native-branch`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSAPIGateway
+    - AWSCore
+    - React
+
+EXTERNAL SOURCES:
+  Branch-SDK:
+    :path: "../node_modules/react-native-branch/ios"
+  react-native-branch:
+    :path: "../node_modules/react-native-branch"
+
+SPEC CHECKSUMS:
+  AWSAPIGateway: e68c89ba7925981c0b1e04e2725fb52a0cd43afd
+  AWSCore: 2dab62ef2e5ca5d8c72c6cbdb3a6ea1532c27c2b
+  Branch-SDK: 7494230721d7a3083d22e2cb3d9ab9dc1340b1ea
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+  react-native-branch: fe98f2cae66d9e77d81a170040512ddb97cccbaf
+
+PODFILE CHECKSUM: 97517f7c5662f1841643d4d326992bfba9e0fe39
+
+COCOAPODS: 1.7.5

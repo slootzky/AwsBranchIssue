@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AWSAPIGateway" "${PODS_CONFIGURATION_BUILD_DIR}/AWSCore" "${PODS_CONFIGURATION_BUILD_DIR}/Branch-SDK" "${PODS_CONFIGURATION_BUILD_DIR}/React" "${PODS_CONFIGURATION_BUILD_DIR}/react-native-branch"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AWSAPIGateway/AWSAPIGateway.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AWSCore/AWSCore.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Branch-SDK/Branch.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/React/React.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/react-native-branch/react_native_branch.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -l"sqlite3" -l"z" -framework "AWSAPIGateway" -framework "AWSCore" -framework "AdSupport" -framework "Branch" -framework "CoreGraphics" -framework "Foundation" -framework "JavaScriptCore" -framework "MobileCoreServices" -framework "React" -framework "SafariServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "react_native_branch"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-BranchAWS/Pods-BranchAWS-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework
+${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework
+${BUILT_PRODUCTS_DIR}/Branch-SDK/Branch.framework
+${BUILT_PRODUCTS_DIR}/React/React.framework
+${BUILT_PRODUCTS_DIR}/react-native-branch/react_native_branch.framework
